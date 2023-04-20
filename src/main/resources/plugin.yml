@@ -1,0 +1,11 @@
+name: WolfDungeonsXL
+version: '${project.version}'
+main: us.mytheria.wolfdungeonsxl.WolfDungeonsXL
+api-version: 1.19
+load: STARTUP
+depend:
+  - DungeonsXL
+  - BlobLib
+commands:
+  dungeonlobby:
+    description: attempts to add a lobby
