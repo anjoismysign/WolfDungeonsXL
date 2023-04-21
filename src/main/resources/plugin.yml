@@ -9,3 +9,5 @@ depend:
 commands:
   dungeonlobby:
     description: attempts to add a lobby
+  dungeonparty:
+    description: attempts to manage parties

@@ -1,0 +1,75 @@
+Dungeon:
+  Lobby-Timer:
+    Type: ACTIONBAR
+    Message: '&7Starting in &f%time%&7 seconds'
+  Game-Timer:
+    Type: ACTIONBAR
+    Message: '&7Time left: &f%time%&7 seconds'
+Party:
+  Already-In-Party:
+    Type: CHAT
+    Message: '&cYou are already in a party!'
+  Not-In-Party:
+    Type: CHAT
+    Message: '&cYou are not in a party!'
+  Leader-Leave:
+    Type: CHAT
+    Message: '&cYou cannot leave your party as the leader!'
+  No-Invitations:
+    Type: CHAT
+    Message: '&cYou have no party invitations!'
+  Join-Usage:
+    Type: CHAT
+    Message: '&cUsage: /party join <player>'
+  Not-Invited:
+    Type: CHAT
+    Message: '&cYou have not been invited to this party!'
+  Target-Not-In-Party:
+    Type: CHAT
+    Message: '&c%player% is not in a party!'
+  Not-Leader:
+    Type: CHAT
+    Message: '&cYou are not the leader of this party!'
+  Invite-Usage:
+    Type: CHAT
+    Message: '&cUsage: /party invite <player>'
+  Already-In-Party-Target:
+    Type: CHAT
+    Message: '&c%player% is already in a party!'
+  Invite:
+    Type: CHAT
+    Message: '&f%player%&7 was invited to your party!'
+  Invited:
+    Type: CHAT
+    Message: "&7You were invited to &f%player%&7's party!"
+  Join:
+    Type: CHAT
+    Message: "&7You joined &f%player%&7's party!"
+  Joined:
+    Type: CHAT
+    Message: '&f%player%&7 joined your party!'
+  Invite-Deny:
+    Type: CHAT
+    Message: "&7You denied &f%player%&7's party invite!"
+  Invite-Denied:
+    Type: CHAT
+    Message: '&f%player%&7 denied your party invite!'
+  Leave:
+    Type: CHAT
+    Message: "&7You left &f%player%&7's party!"
+  Left:
+    Type: CHAT
+    Message: '&f%player%&7 left your party!'
+  Disband:
+    Type: CHAT
+    Message: '&7You disbanded your party!'
+  Disbanded:
+    Type: CHAT
+    Message: '&f%player%&7 disbanded your party!'
+  Create:
+    Type: CHAT
+    Message: '&7You created a party!'
+  Invalid-Argument:
+    Type: CHAT
+    Message: '&cInvalid argument! Usage: /party <create|invite|join|leave|disband>'
+
