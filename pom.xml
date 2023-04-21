@@ -65,6 +65,11 @@
             <id>dre-repo</id>
             <url>https://erethon.de/repo</url>
         </repository>
+        <repository>
+            <id>phoenix</id>
+            <url>https://nexus.phoenixdvpt.fr/repository/maven-public/</url>
+        </repository>
+
     </repositories>
 
     <dependencies>
@@ -86,5 +91,12 @@
             <version>0.18-PRE-02</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>net.Indyuce</groupId>
+            <artifactId>MMOCore-API</artifactId>
+            <version>1.12-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
 </project>

@@ -1,5 +1,5 @@
 name: WolfDungeonsXL
-version: '${project.version}'
+version: ${project.version}
 main: us.mytheria.wolfdungeonsxl.WolfDungeonsXL
 api-version: 1.17
 load: STARTUP
